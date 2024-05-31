@@ -1,0 +1,28 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iniciando no Javascript</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="box-nav">
+            <h1>Exercício #03</h1>
+            <h2>Matheus</h2>
+        </div>
+    
+        <div class="box">
+            <p class="p">Por favor, digite um número:
+            </p>
+            <input class="interger" placeholder="Here" id="textArea"></input>
+            <div class="button">            
+                <button onclick="validarNumeroPositivo()"> Enviar </button>
+            </div>
+            <p id ="numerovalido"></p>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+    </html>
+
+
